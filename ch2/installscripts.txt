@@ -1,0 +1,24 @@
+# Basic Python tools
+
+sudo apt install python
+sudo apt install python3-pip
+python3 -m pip install --user virtualenv
+
+python3 -m venv pytorchenv
+source pytorchenv/bin/activate
+pip3 install torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Exit the virtual env
+deactivate
+
+#Basic C/C++ build tools
+
+apt install -y \
+build-essential \
+clang \
+cmake \
+git \
+llvm \
+ninja-build \
+protobuf-compiler
+
